@@ -1,0 +1,37 @@
+WILDFIRE SIMULATION DATASET METADATA
+
+Dataset type:
+    Synthetic, simulation-generated data. These are not observed wildfire events.
+
+AI disclosure:
+    Record the AI tool, model/version, date, and exact prompts used to help
+    create or revise this code. The simulation code generates the dataset.
+
+Random seed:
+    42
+
+Grid:
+    40 x 40 cells
+    Cell width and height: 2.0 m
+    Total simulated area: 80.0 m x 80.0 m
+
+Experimental settings:
+    Tree densities (trees/ha): [250, 500, 750]
+    Tree arrangements: ['random', 'regular']
+    Wind speeds (km/h): [5, 15, 25]
+    Fuel moisture (%): [5, 15]
+    Slopes (degrees): [0, 20]
+    Management strategies: ['untreated', 'tree_thinning', 'ground_fuel_removal', 'combined']
+    Replicates per parameter combination: 2
+    Maximum fire steps: 100
+
+Management assumptions:
+    Tree thinning removes 30% of target tree density.
+    Ground-fuel removal removes 65% of ground fuel.
+
+Model limitations:
+    This is a simplified probabilistic cellular automaton, not a full
+    computational-fluid-dynamics or combustion-chemistry model. Wind, moisture,
+    slope, and fuel effects use tunable simplified relationships. The model
+    should be calibrated and validated against suitable real-world datasets
+    before making claims about actual forest outcomes.

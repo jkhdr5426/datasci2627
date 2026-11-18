@@ -1,0 +1,5 @@
+management,mean_living_trees_pct_of_original_stock,sd_living_trees_pct_of_original_stock,mean_tree_survival_pct_of_post_treatment_stock,mean_burned_area_pct,mean_trees_removed_by_management,mean_crown_ignited_tree_cells_proxy,scenarios
+surface_fuel_reduction,92.373188,18.006009,92.373188,8.347801,0.000000,8.145833,48
+combined_thinning_and_fuel_reduction,59.637681,17.550459,84.737065,14.800347,34.145833,12.375000,48
+unmanaged,37.192029,27.699318,37.192029,66.229022,0.000000,57.479167,48
+thin_from_below,22.789855,20.169382,32.029090,71.770111,34.145833,46.041667,48
